@@ -1,0 +1,69 @@
+
+.bill-gates{
+    position:absolute;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    font-weight:bold;
+    font-size:25px;
+    left:300px;
+    
+
+}
+.bill-image-container{
+    display:inline;
+    animation-name: imageslide;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+.bill-image{
+    display:flex;
+    height:500px;
+    margin-top:100px;
+    margin-left:100px;
+    border-radius:100px;
+    box-shadow: inset 1px 2px 2px rgba(0,0,0,1);
+    border:none; 
+   animation-name: image;
+   animation-iteration-count: 1;
+   animation-duration: 4s;
+}
+@keyframes image{
+    0% {opacity:0;}
+}
+.bill-gates:hover #slide{
+    transition: 1s;
+    left:0;
+}
+.bill-text{  
+    left:500px;
+    bottom:400px;
+    position:relative;
+    width:600px; 
+}
+.bill-mini-bio{
+    width:600px;
+    margin-left:40px;
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    
+}
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width:300%;
+    }
+    to {
+        margin-left: 7%;
+        width:100%;
+    }
+}
+.bill-gates{
+    z-index:0;
+    height:600px;
+}
+.microsoft-link{
+    color:blue;
+    text-decoration-color: blue;
+}

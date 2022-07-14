@@ -1,0 +1,33 @@
+.header{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left:250px;
+    margin-right:250px;
+    
+} 
+.bio-home,.achievements-home,.foundation-home{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.home-button,.achievements-button,.foundation-button{
+    height:50px;
+    width:200px;
+    border:none;
+    background:none;
+    font-size:25px;
+   
+}
+.home-button-editor,.achievements-button-editor,.foundation-button-editor{
+    background-color: black;
+    width:200px;
+    border-radius: 100px;
+    
+}
+.home-button-editor:hover, .achievements-button-editor:hover,.foundation-button-editor:hover{
+    background-color: rgb(73, 141, 219);
+}
+.home-button-editor:active, .achievements-button-editor:active,.foundation-button-editor:active{
+    opacity: 0.8;
+}

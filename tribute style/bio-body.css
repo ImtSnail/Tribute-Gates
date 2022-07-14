@@ -1,0 +1,64 @@
+.bill-bio{
+    font-family: Roboto, Arial;
+    font-weight:bold;
+    font-size: 25px;
+    animation-name: bio-text;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    
+}
+.bill-photo{
+    max-width:1000px;
+    margin-left:450px;
+    animation-name: young-bill;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.bill-full-bio{
+    display: inline-block;
+}
+.bill-photo:hover, .bill-allen-photo:hover {
+    opacity: 0.8;
+}
+@keyframes young-bill{
+    from{
+        margin-left:100%;
+    }
+    0%{opacity: 0;}
+}
+.bill-allen-photo{
+    width:500px;
+    border-radius: 100px;
+    margin-left: 400px;
+    animation-name: allen-bill;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.allen-button{
+    background-color: transparent;
+    border:none;
+}
+@keyframes allen-bill{
+    0%{opacity: 0;}
+}
+@keyframes bio-text{
+    0%{opacity:0;}
+}
+.allen-link{
+    font-weight: bold;
+    color:blue;
+    text-decoration-color: blue;
+}
+.foundation-photo-container{
+    display: flex;
+}
+.foundation-photo{
+    
+    max-width:600px;
+    margin:auto;
+    border-radius: 100px;
+    animation-name: allen-bill;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    
+}

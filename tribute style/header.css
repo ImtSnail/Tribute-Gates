@@ -1,0 +1,63 @@
+.header{
+    font-family:Roboto;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+.left-section{
+   margin-left:100px;
+    display:flex;
+}
+.foundation{
+    width:400px;
+}
+.foundation-button:hover{
+ opacity: 0.8;
+ cursor: pointer;
+}
+
+.right-section{
+    display:flex;
+    
+    width:500px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right:200px;
+    
+}
+.bio-button,.achievements-button{
+    height:50px;
+    width:200px;
+    border:none;
+    background:none;
+    font-size:25px;
+    border-radius:30px;
+
+    
+}
+.learn-button{
+    height:100px;
+    width:200px;
+    border:none;
+    background:none;
+    font-size:25px;
+    border-radius:30px;
+}
+.learn-real-button, .bio-real-button, .achievements-real-button{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.bio-button:hover,.achievements-button:hover,.learn-button:hover{
+    background-color: rgb(91, 20, 223);
+    
+
+    
+}
+
+
+
+
